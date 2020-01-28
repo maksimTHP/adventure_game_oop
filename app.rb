@@ -33,9 +33,4 @@ end
 
 
 
-# if player2.life_points <= 0   #Quand on arrive ici, on sait qu'un de deux est mort, mais on ne sait pas lequel. Sinon on serait pas sortit de la boucle while. Alors si player2 a un nombre de point de vie inférieur ou égal à 0 ca veut dire que c'est lui qui est mort.
-#   then puts "#{player2.name} est mort. #{player1.name} a gagné!" #Alors player2 est mort. Et player 1 a gagné. Bravo!
-# else puts "#{player1.name} est mort. #{player2.name} a gagné!" #Sinon player1 est mort. DAns ce cas c'est tout naturellement que player 2 a gagné. GG gros!
-# end
-
 puts "Fin du game. Bisous."
